@@ -1,0 +1,9 @@
+{:paths
+            ["src" "resources"]
+ :deps
+            {org.javassist/javassist  {:mvn/version "3.18.1-GA"}
+             com.datomic/client-cloud {:mvn/version "0.8.105"}
+             com.datomic/dev-local    {:local/root
+                                       "resources/dev-local/dev-local-0.9.232.jar"}
+             org.clojure/clojure      {:mvn/version "1.10.2"}}
+ :mvn/repos {"clojars" {:url "https://clojars.org/repo"}}}
